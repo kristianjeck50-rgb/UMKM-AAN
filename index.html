@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#faf8f3">
+  <title>Tahu Goreng | Food Store</title>
+
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <img src="Assets/logo.jpg" alt="Logo Tahu Goreng">
+        <span>Tahu Goreng</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        type="button" aria-label="Buka menu"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-heading">
+          <span class="eyebrow">HANGAT • GURIH • LEZAT</span>
+          <h1>Tahu Goreng<br><em>Favorit Kamu.</em></h1>
+          <p>
+            Camilan gurih dan lezat untuk menemani
+            waktu santai bersama keluarga dan teman.
+          </p>
+          <a href="#produk" class="text-link">
+            Lihat menu kami <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog" id="produk">
+      <div class="container">
+        <div class="catalog-heading">
+          <span class="eyebrow">PILIHAN TERBAIK</span>
+          <h2>Menu Favorit <em>Kamu.</em></h2>
+          <p>
+            Rasa yang sederhana, kenikmatan yang istimewa.
+            Yuk, pilih menu kesukaanmu!
+          </p>
+        </div>
+
+        <div class="product-list">
+          <article class="product-card">
+            <div class="product-photo">
+              <img src="Assets/produk1.jpg"
+                alt="Tahu goreng lezat">
+
+              <span class="product-number">01</span>
+              <span class="product-price">Rp5.000</span>
+            </div>
+
+            <div class="product-details">
+              <span class="eyebrow">TAHU GORENG SERIES</span>
+              <h3>Tahu Goreng</h3>
+              <p>
+                Gurih di luar, lembut di dalam.
+                Nikmat untuk camilan setiap hari.
+              </p>
+
+              <a class="order-link"
+                href="https://wa.me/6285362870779?text=Halo%2C%20saya%20ingin%20memesan%20tahu%20goreng."
+                target="_blank" rel="noopener noreferrer">
+                Pesan sekarang <span>↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="tentang">
+      <div class="container about-inner">
+        <span class="eyebrow">CERITA KAMI</span>
+        <h2>Sederhana, Lezat, dan Penuh Rasa.</h2>
+        <p>
+          Kami menyediakan tahu goreng untuk menemani
+          waktu santai, berkumpul bersama keluarga,
+          dan menikmati camilan favorit.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="kontak">
+      <div class="container">
+        <span class="eyebrow">INFORMASI PENJUALAN</span>
+        <h2>Hubungi <em>Kami.</em></h2>
+
+        <div class="contact-list">
+          <div class="contact-item">
+            <span class="contact-icon">⌖</span>
+            <div>
+              <h3>Alamat</h3>
+              <p>Bandar Betsy VII</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">☎</span>
+            <div>
+              <h3>Nomor Telepon</h3>
+              <p><a href="tel:085362870779">085362870779</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <div>
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:aanjbaan@gmail.com">
+                  aanjbaan@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">◷</span>
+            <div>
+              <h3>Jam Operasional</h3>
+              <p>Setiap hari, 08.00–18.00 WIB</p>
+              <small>Sesuaikan dengan jam jualan sebenarnya.</small>
+            </div>
+          </div>
+        </div>
+
+        <a class="contact-button"
+          href="https://wa.me/6285362870779"
+          target="_blank" rel="noopener noreferrer">
+          Hubungi melalui WhatsApp ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tahu Goreng</p>
+      <a href="#home">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
